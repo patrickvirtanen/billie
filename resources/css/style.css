@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(90, 120, 138, 0.651),
+      rgba(90, 120, 138, 0.651)
+    ),
+    url(../img/billie_ellish_1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.intro {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+header h1 {
+  font-family: "Cute Font", cursive;
+  font-size: 400%;
+  color: rgba(27, 240, 63, 0.945);
+  margin-bottom: -30px;
+}
+
+header h2 {
+  font-family: "Cute Font", cursive;
+  font-size: 200%;
+  color: rgba(20, 169, 45, 0.945);
+  margin-bottom: 15px;
+}
+
+.btn-buy:link,
+.btn-buy:visited {
+  text-decoration: none;
+  background-color: #eafeed;
+  color: black;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 200px;
+  width: 50%;
+  height: 50%;
+  transition: background-color 0.4s;
+}
+
+.btn-buy:hover,
+.btn-buy:active {
+  background-color: #63e977;
+}
